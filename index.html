@@ -7,17 +7,33 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <p>Business Analyst | Data Scientist</p>
-    </header>
-    <section>
-        <h2>Projects</h2>
-        <ul id="projects"></ul>
-    </section>
-    <footer>
-        <p>Contact me: <a href="mailto:jhubacova@yahoo.com">jhubacova@yahoo.com</a></p>
-    </footer>
+    <div class="container">
+        <header>
+            <h1>Welcome to My <span class="highlight">Portfolio Website</span></h1>
+            <div class="social-icons">
+                <a href="https://github.com/julianahubacova" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/julianahubacova" target="_blank">LinkedIn</a>
+                <a href="mailto:jhubacova@yahoo.com">Email</a>
+            </div>
+        </header>
+
+        <section id="about">
+            <h2>Hello, I'm <span class="highlight">Juliana Hubacova</span></h2>
+            <p>Business Analyst | Data Scientist</p>
+            <p>Passionate about AI, data-driven decision-making, and financial analytics.</p>
+            <a href="Resume_Juliana_Hubacova.pdf" class="btn">Download CV</a>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div id="projects-list"></div>
+        </section>
+
+        <footer>
+            <p>© 2025 Juliana Hubacova | All Rights Reserved</p>
+        </footer>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
