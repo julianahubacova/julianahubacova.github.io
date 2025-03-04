@@ -1,7 +1,7 @@
 /* General Styles */
 body {
     font-family: "Poppins", sans-serif;
-    background-color: #121212;
+    background-color: #1A1A2E;
     color: #EAEAEA;
     text-align: center;
     margin: 0;
@@ -17,7 +17,7 @@ body {
 
 /* Header */
 header {
-    background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+    background: linear-gradient(135deg, #1A1A2E, #0F3460);
     padding: 50px 0;
     text-align: center;
 }
@@ -28,7 +28,7 @@ h1 {
 }
 
 .highlight {
-    color: #00A8E8;
+    color: #00AEEF;
 }
 
 /* Social Icons */
@@ -38,20 +38,20 @@ h1 {
 
 .social-icons a {
     margin: 0 10px;
-    color: #00A8E8;
+    color: #00AEEF;
     text-decoration: none;
     font-size: 1.2em;
     font-weight: bold;
 }
 
 .social-icons a:hover {
-    color: #7D5BA6;
+    color: #6A0DAD;
     transition: 0.3s;
 }
 
 /* About Section */
 #about {
-    background: linear-gradient(135deg, #1a1a1a, #222);
+    background: linear-gradient(135deg, #1A1A2E, #0F3460);
     padding: 80px 0;
     text-align: center;
 }
@@ -81,8 +81,8 @@ h1 {
 .about-image img {
     width: 250px;
     border-radius: 50%;
-    border: 3px solid #00A8E8;
-    box-shadow: 0 0 20px rgba(0, 168, 232, 0.5);
+    border: 3px solid #00AEEF;
+    box-shadow: 0 0 20px rgba(0, 174, 239, 0.5);
 }
 
 /* Buttons */
@@ -90,7 +90,7 @@ h1 {
     display: inline-block;
     padding: 12px 20px;
     margin-top: 15px;
-    background: #00A8E8;
+    background: #00AEEF;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -99,20 +99,20 @@ h1 {
 }
 
 .btn:hover {
-    background: #0077B6;
+    background: #6A0DAD;
     transform: scale(1.05);
 }
 
 /* Projects Section */
 #projects {
-    background: linear-gradient(135deg, #1a1a1a, #222);
+    background: linear-gradient(135deg, #0F3460, #1A1A2E);
     padding: 80px 0;
     text-align: center;
 }
 
 #projects h2 {
     margin-bottom: 20px;
-    color: #00A8E8;
+    color: #00AEEF;
 }
 
 #projects-list {
@@ -122,7 +122,7 @@ h1 {
 }
 
 .project-card {
-    background: #1e1e1e;
+    background: #222;
     padding: 20px;
     margin: 15px;
     width: 280px;
@@ -139,7 +139,7 @@ h1 {
 .project-card h3 {
     margin: 0;
     font-size: 1.2em;
-    color: #00A8E8;
+    color: #00AEEF;
 }
 
 .project-card p {
@@ -148,7 +148,7 @@ h1 {
 }
 
 .project-card a {
-    color: #7D5BA6;
+    color: #6A0DAD;
     text-decoration: none;
     font-weight: bold;
 }
@@ -162,7 +162,7 @@ h1 {
 footer {
     margin-top: 50px;
     padding: 20px;
-    background: #111;
+    background: #0F3460;
     font-size: 0.9em;
 }
 
