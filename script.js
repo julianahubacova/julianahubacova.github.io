@@ -1,13 +1,18 @@
-const username = "yourusername"; // Replace with your GitHub username
-const repoURL = `https://api.github.com/users/${julianahubacova}/repos`;
+const username = "julianahubacova"; 
+const repoURL = `https://api.github.com/users/${username}/repos`;
 
 fetch(repoURL)
     .then(response => response.json())
     .then(data => {
-        let projectContainer = document.getElementById("projects");
+        let projectContainer = document.getElementById("projects-list");
         data.forEach(repo => {
-            let project = document.createElement("li");
-            project.innerHTML = `<a href="${repo.html_url}" target="_blank">${repo.name}</a> - ${repo.description || "No description"}`;
+            let project = document.createElement("div");
+            project.classList.add("project-card");
+            project.innerHTML = `
+                <h3>${repo.name}</h3>
+                <p>${repo.description || "No description available"}</p>
+                <a href="${repo.html_url}" target="_blank">View on GitHub</a>
+            `;
             projectContainer.appendChild(project);
         });
     })
