@@ -1,7 +1,7 @@
 /* General Styles */
 body {
     font-family: "Poppins", sans-serif;
-    background-color: #0A0A0A; /* Pure Black */
+    background-color: #0A0F1E; /* Deep Navy */
     color: #EAEAEA; /* Light Gray */
     text-align: center;
     margin: 0;
@@ -10,17 +10,17 @@ body {
 
 /* Hero Section */
 #hero {
-    background: linear-gradient(135deg, #121212, #1A1A1A); /* Dark Gradient */
+    background: linear-gradient(135deg, #0A0F1E, #0E1A2B); /* Dark Blue Gradient */
     padding: 100px 0;
 }
 
 #hero h1 {
     font-size: 3em;
-    color: #08FDD8; /* Neon Cyan */
+    color: #00AEEF; /* Electric Blue */
 }
 
 .highlight {
-    color: #AE00FF; /* Neon Magenta */
+    color: #47CFFF; /* Light Cyan */
 }
 
 /* Buttons */
@@ -28,8 +28,8 @@ body {
     display: inline-block;
     padding: 12px 20px;
     margin-top: 15px;
-    background: #08FDD8; /* Neon Cyan */
-    color: #121212;
+    background: #007BFF; /* Bright Blue */
+    color: white;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -37,13 +37,13 @@ body {
 }
 
 .btn:hover {
-    background: #AE00FF; /* Neon Magenta */
+    background: #0056b3; /* Darker Blue */
     transform: scale(1.05);
 }
 
 /* About Section */
 #about {
-    background: #121212; /* Dark Gray */
+    background: #0E1A2B; /* Dark Blue */
     padding: 80px 0;
     display: flex;
     justify-content: center;
@@ -62,16 +62,16 @@ body {
 /* About Me Box */
 .about-box {
     flex: 1;
-    background: rgba(26, 26, 26, 0.9); /* Dark Charcoal */
+    background: rgba(14, 26, 43, 0.9); /* Dark Navy */
     padding: 25px;
     border-radius: 10px;
     text-align: left;
-    box-shadow: 0 0 15px rgba(8, 253, 216, 0.3);
-    border-left: 5px solid #08FDD8;
+    box-shadow: 0 0 15px rgba(0, 174, 239, 0.3);
+    border-left: 5px solid #00AEEF;
 }
 
 .about-box h2 {
-    color: #08FDD8;
+    color: #00AEEF;
     font-size: 2em;
 }
 
@@ -91,19 +91,19 @@ body {
 .about-image img {
     width: 280px;
     border-radius: 15px;
-    border: 3px solid #AE00FF;
-    box-shadow: 0 0 20px rgba(174, 0, 255, 0.6);
+    border: 3px solid #47CFFF;
+    box-shadow: 0 0 20px rgba(71, 207, 255, 0.6);
 }
 
 /* Portfolio Section */
 #portfolio {
-    background: #1A1A1A;
+    background: #0A0F1E;
     padding: 80px 0;
 }
 
 #portfolio h2 {
     margin-bottom: 20px;
-    color: #08FDD8;
+    color: #00AEEF;
 }
 
 /* Tabs */
@@ -115,16 +115,16 @@ body {
 }
 
 .tab-button {
-    background: #08FDD8;
+    background: #007BFF;
     border: none;
     padding: 10px 20px;
-    color: #121212;
+    color: white;
     cursor: pointer;
     border-radius: 5px;
 }
 
 .tab-button.active {
-    background: #AE00FF;
+    background: #00AEEF;
 }
 
 /* Portfolio Grid */
@@ -134,11 +134,11 @@ body {
     gap: 20px;
 }
 
-.project-card, .cert-card {
-    background: #1A1A1A;
+.project-card {
+    background: #0E1A2B;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 10px rgba(0, 174, 239, 0.3);
     transition: transform 0.3s ease-in-out;
 }
 
@@ -149,24 +149,12 @@ body {
 .project-card h3 {
     margin: 0;
     font-size: 1.2em;
-    color: #08FDD8;
+    color: #00AEEF;
 }
 
 .project-card p {
     font-size: 0.9em;
     color: #bbb;
-}
-
-/* Certifications */
-.cert-card img {
-    width: 100%;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: transform 0.3s;
-}
-
-.cert-card img:hover {
-    transform: scale(1.05);
 }
 
 /* Tech Stack */
@@ -189,12 +177,12 @@ body {
 
 /* Contact Section */
 #contact {
-    background: #121212;
+    background: #0E1A2B;
     padding: 50px 0;
 }
 
 #contact h2 {
-    color: #08FDD8;
+    color: #00AEEF;
 }
 
 .social-icons {
@@ -203,14 +191,14 @@ body {
 
 .social-icons a {
     margin: 0 10px;
-    color: #08FDD8;
+    color: #00AEEF;
     text-decoration: none;
     font-size: 1.2em;
     font-weight: bold;
 }
 
 .social-icons a:hover {
-    color: #AE00FF;
+    color: #47CFFF;
     transition: 0.3s;
 }
 
@@ -218,7 +206,7 @@ body {
 footer {
     margin-top: 50px;
     padding: 20px;
-    background: #121212;
+    background: #0E1A2B;
     font-size: 0.9em;
 }
 
