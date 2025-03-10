@@ -140,6 +140,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 174, 239, 0.3);
     transition: transform 0.3s ease-in-out;
+    text-align: left;
 }
 
 .project-card:hover {
@@ -147,14 +148,38 @@ body {
 }
 
 .project-card h3 {
-    margin: 0;
     font-size: 1.2em;
     color: #00AEEF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.private-badge {
+    background: #FF4C4C;
+    color: white;
+    padding: 3px 6px;
+    font-size: 0.8em;
+    border-radius: 5px;
 }
 
 .project-card p {
     font-size: 0.9em;
     color: #bbb;
+}
+
+.project-tags {
+    margin-top: 10px;
+}
+
+.project-tag {
+    background: #007BFF;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    margin-right: 5px;
+    display: inline-block;
 }
 
 /* Tech Stack */
