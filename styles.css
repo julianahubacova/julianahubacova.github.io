@@ -1,32 +1,26 @@
 /* General Styles */
 body {
     font-family: "Poppins", sans-serif;
-    background-color: #1A1A2E;
-    color: #EAEAEA;
+    background-color: #0A0A0A; /* Pure Black */
+    color: #EAEAEA; /* Light Gray */
     text-align: center;
     margin: 0;
     padding: 0;
 }
 
-/* Container */
-.container {
-    max-width: 1100px;
-    margin: auto;
-    padding: 40px;
-}
-
 /* Hero Section */
 #hero {
-    background: linear-gradient(135deg, #1A1A2E, #0F3460);
+    background: linear-gradient(135deg, #121212, #1A1A1A); /* Dark Gradient */
     padding: 100px 0;
 }
 
 #hero h1 {
     font-size: 3em;
+    color: #08FDD8; /* Neon Cyan */
 }
 
 .highlight {
-    color: #00AEEF;
+    color: #AE00FF; /* Neon Magenta */
 }
 
 /* Buttons */
@@ -34,8 +28,8 @@ body {
     display: inline-block;
     padding: 12px 20px;
     margin-top: 15px;
-    background: #00AEEF;
-    color: white;
+    background: #08FDD8; /* Neon Cyan */
+    color: #121212;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -43,13 +37,13 @@ body {
 }
 
 .btn:hover {
-    background: #6A0DAD;
+    background: #AE00FF; /* Neon Magenta */
     transform: scale(1.05);
 }
 
 /* About Section */
 #about {
-    background: linear-gradient(135deg, #1A1A2E, #0F3460);
+    background: #121212; /* Dark Gray */
     padding: 80px 0;
     display: flex;
     justify-content: center;
@@ -68,16 +62,16 @@ body {
 /* About Me Box */
 .about-box {
     flex: 1;
-    background: rgba(10, 10, 30, 0.9);
+    background: rgba(26, 26, 26, 0.9); /* Dark Charcoal */
     padding: 25px;
     border-radius: 10px;
     text-align: left;
-    box-shadow: 0 0 15px rgba(0, 174, 239, 0.3);
-    border-left: 5px solid #00AEEF;
+    box-shadow: 0 0 15px rgba(8, 253, 216, 0.3);
+    border-left: 5px solid #08FDD8;
 }
 
 .about-box h2 {
-    color: #00AEEF;
+    color: #08FDD8;
     font-size: 2em;
 }
 
@@ -97,19 +91,19 @@ body {
 .about-image img {
     width: 280px;
     border-radius: 15px;
-    border: 3px solid #6A0DAD;
-    box-shadow: 0 0 20px rgba(106, 13, 173, 0.6);
+    border: 3px solid #AE00FF;
+    box-shadow: 0 0 20px rgba(174, 0, 255, 0.6);
 }
 
 /* Portfolio Section */
 #portfolio {
-    background: linear-gradient(135deg, #0F3460, #1A1A2E);
+    background: #1A1A1A;
     padding: 80px 0;
 }
 
 #portfolio h2 {
     margin-bottom: 20px;
-    color: #00AEEF;
+    color: #08FDD8;
 }
 
 /* Tabs */
@@ -121,16 +115,16 @@ body {
 }
 
 .tab-button {
-    background: #00AEEF;
+    background: #08FDD8;
     border: none;
     padding: 10px 20px;
-    color: white;
+    color: #121212;
     cursor: pointer;
     border-radius: 5px;
 }
 
 .tab-button.active {
-    background: #6A0DAD;
+    background: #AE00FF;
 }
 
 /* Portfolio Grid */
@@ -141,10 +135,10 @@ body {
 }
 
 .project-card, .cert-card {
-    background: #222;
+    background: #1A1A1A;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
     transition: transform 0.3s ease-in-out;
 }
 
@@ -155,7 +149,7 @@ body {
 .project-card h3 {
     margin: 0;
     font-size: 1.2em;
-    color: #00AEEF;
+    color: #08FDD8;
 }
 
 .project-card p {
@@ -195,12 +189,12 @@ body {
 
 /* Contact Section */
 #contact {
-    background: #0F3460;
+    background: #121212;
     padding: 50px 0;
 }
 
 #contact h2 {
-    color: #00AEEF;
+    color: #08FDD8;
 }
 
 .social-icons {
@@ -209,14 +203,14 @@ body {
 
 .social-icons a {
     margin: 0 10px;
-    color: #00AEEF;
+    color: #08FDD8;
     text-decoration: none;
     font-size: 1.2em;
     font-weight: bold;
 }
 
 .social-icons a:hover {
-    color: #6A0DAD;
+    color: #AE00FF;
     transition: 0.3s;
 }
 
@@ -224,7 +218,7 @@ body {
 footer {
     margin-top: 50px;
     padding: 20px;
-    background: #0F3460;
+    background: #121212;
     font-size: 0.9em;
 }
 
