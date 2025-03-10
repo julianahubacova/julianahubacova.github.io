@@ -13,19 +13,20 @@ function showTab(tabName) {
     let tabs = document.querySelectorAll(".tab-content");
     let buttons = document.querySelectorAll(".tab-button");
 
-    // Hide all tabs and remove active class from buttons
-    tabs.forEach(tab => tab.classList.remove("active"));
+    // Hide all tab contents and remove 'active' class from buttons
+    tabs.forEach(tab => tab.style.display = "none");
     buttons.forEach(button => button.classList.remove("active"));
 
-    // Show the selected tab and highlight the button
-    document.getElementById(tabName).classList.add("active");
+    // Show the selected tab and highlight its button
+    document.getElementById(tabName).style.display = "block";
     document.querySelector(`[onclick="showTab('${tabName}')"]`).classList.add("active");
 }
 
-// Default to 'Projects' tab when page loads
+// Ensure only the 'Projects' section is visible by default
 document.addEventListener("DOMContentLoaded", function () {
     showTab('projects');
 });
+
 
 // Project Cards Hover Effect
 document.querySelectorAll('.project-card').forEach(card => {
