@@ -1,86 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juliana Hubacova | Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Juliana Hubacova — Data & ML</title>
+<meta name="description" content="Juliana Hubacova — research analyst and data engineer in Montréal. Machine learning, data quality, and the occasional probability puzzle.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%231E5A41'/><text x='50' y='68' font-size='52' font-family='Georgia,serif' fill='%23FBFAF8' text-anchor='middle'>J</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
 
-        <!-- Hero Section -->
-        <section id="hero">
-            <h1>Welcome to My <span class="highlight">Portfolio</span></h1>
-            <p>Turning Data into Actionable Insights | AI & Predictive Analytics Enthusiast</p>
-            <a href="#portfolio" class="btn">Explore My Work</a>
-        </section>
+<header class="nav">
+  <a href="#top" class="nav-name">Juliana Hubacova</a>
+  <nav class="nav-links">
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-        <!-- About Me Section -->
-        <section id="about">
-            <div class="about-container">
-                <!-- About Me Text Box -->
-                <div class="about-box">
-                    <h2>About Me</h2>
-                    <p>I'm an aspiring data scientist, passionate about AI, analytics, and predictive modeling. With a Master’s of Management in Analytics from McGill and a background in Economics & Mathematics, I focus on solving business challenges with data-driven strategies.</p>
-                    <a href="Resume_Juliana_Hubacova.pdf" class="btn">📄 Download my CV</a>
-                </div>
-                <!-- About Me Image -->
-                <div class="about-image">
-                    <img src="me.jpg" alt="Juliana Hubacova">
-                </div>
-            </div>
-        </section>
+<main id="top">
 
-        <!-- Portfolio Showcase Section -->
-        <section id="portfolio">
-            <h2>Portfolio Showcase</h2>
-            <p>Explore my journey through projects, certifications, and technical expertise.</p>
-            
-            <div class="tabs">
-                <button class="tab-button active" onclick="showTab('projects')">Projects</button>
-                <button class="tab-button" onclick="showTab('certifications')">Certifications</button>
-                <button class="tab-button" onclick="showTab('tech-stack')">Tech Stack</button>
-            </div>
+  <!-- Hero -->
+  <section class="hero">
+    <p class="eyebrow">Juliana Hubacova · Montréal</p>
+    <h1 class="hero-title">I like the unglamorous part of data: making it trustworthy.</h1>
+    <p class="hero-sub">Research analyst with a data-engineering background. Most of my free time lately goes to machine learning, and to getting models out of the notebook and onto the web.</p>
+    <div class="hero-cta">
+      <a href="#work" class="btn btn-primary">See my work</a>
+      <a href="Juliana_Hubacova_CV.pdf" class="btn btn-ghost">Download CV</a>
+      <a href="https://www.linkedin.com/in/julianahubacova" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+    </div>
+  </section>
 
-            <div id="projects" class="tab-content active">
-                <div id="projects-container" class="portfolio-grid">
-                    <!-- JavaScript will dynamically insert project cards here -->
-                </div>
-            </div>
+  <!-- About -->
+  <section id="about" class="about">
+    <div class="about-grid">
+      <div class="about-text">
+        <p class="eyebrow">About</p>
+        <p>I came up as a data engineer, so I care about how a dataset was built as much as what it says. Right now I'm drawn to machine learning, and to the part most tutorials skip: deploying a model so it becomes a service someone can actually call, not a notebook that only runs on my laptop.</p>
+        <p>Away from the keyboard, it's piano (about ten years of it now), 10K runs, and swimming. I also read far too much about the Canadian investing landscape for someone who insists it's just a hobby.</p>
+        <ul class="facts">
+          <li><span>Education</span> Master of Management in Analytics, McGill · B.A. Economics, Université de Montréal</li>
+          <li><span>Based in</span> Montréal · bilingual (FR / EN)</li>
+          <li><span>Learning now</span> FastAPI, Docker, RAG, AWS</li>
+        </ul>
+      </div>
+      <div class="about-photo">
+        <img src="me.jpg" alt="Portrait of Juliana Hubacova">
+      </div>
+    </div>
+  </section>
 
-            <div id="certifications" class="tab-content">
-                <p style="text-align: center; font-size: 1.2em; color: #bbb;">🚀 Certifications Coming Soon! 🚀</p>
-            </div>
-
-            <div id="tech-stack" class="tab-content">
-                <div class="tech-icons">
-                    <img src="images/Python.svg" alt="Python">
-                    <img src="images/R.svg" alt="R">
-                    <img src="images/VsCode.svg" alt="VSCode">
-                    <img src="images/AWS.svg" alt="AWS">
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p>Got a question? Send me a message, and I'll get back to you soon.</p>
-            <div class="social-icons">
-                <a href="https://github.com/julianahubacova" target="_blank">GitHub</a>
-                <a href="https://www.linkedin.com/in/julianahubacova" target="_blank">LinkedIn</a>
-                <a href="mailto:jhubacova@yahoo.com">Email</a>
-            </div>
-        </section>
-
-        <!-- Footer -->
-        <footer>
-            <p>© 2025 Juliana Hubacova | All Rights Reserved</p>
-        </footer>
-
+  <!-- Serious work -->
+  <section id="work" class="work">
+    <div class="section-head">
+      <p class="eyebrow">Selected work</p>
+      <h2>Projects I take seriously</h2>
+      <p class="section-lede">Data and machine-learning work, mostly around credit risk and data quality.</p>
     </div>
 
-    <script src="script.js"></script>
+    <div class="cards">
+      <article class="card">
+        <h3>SBA Loan Default Prediction</h3>
+        <p>A credit-risk model that flags loans likely to default, at 0.98 ROC-AUC on a public SBA lending dataset. Every prediction ships with a SHAP explanation, so there's a reason behind the score and not just a number. I'm packaging it as a FastAPI service so it can be queried live.</p>
+        <div class="tags">
+          <span>Python</span><span>scikit-learn</span><span>SHAP</span><span>FastAPI</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/julianahubacova/REPO" target="_blank" rel="noopener">Code&nbsp;↗</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>SMB Loan Data Quality Pipeline</h3>
+        <p>A Bronze / Silver / Gold pipeline that runs ten automated quality checks and logs every failure to a Delta table. Bad records get caught before they reach a dashboard, instead of after someone has already acted on them. Results land in Power BI.</p>
+        <div class="tags">
+          <span>Databricks</span><span>Delta Lake</span><span>Power BI</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/julianahubacova/smb-loan-quality-pipeline" target="_blank" rel="noopener">Code&nbsp;↗</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>Detecting Fake Reviews</h3>
+        <p>An NLP model that flags planted or fake book reviews. It's from my grad-school days, but the lesson stuck: most of the work in text classification lives in the cleaning, long before the model sees anything.</p>
+        <div class="tags">
+          <span>Python</span><span>NLP</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/julianahubacova/Detecting_Fake_Reviews" target="_blank" rel="noopener">Code&nbsp;↗</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Fun work -->
+  <section class="work work-fun">
+    <div class="section-head">
+      <p class="eyebrow">Just for fun</p>
+      <h2>Projects I built because I wanted to</h2>
+      <p class="section-lede">Smaller things, usually because a question wouldn't leave me alone.</p>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <h3>The Birthday Paradox</h3>
+        <p>How many people do you need in a room before two share a birthday? Far fewer than it feels — 23 already gets you to a coin flip. This tool lets you play with the numbers and watches a Monte Carlo simulation land on the same answer the formula predicts.</p>
+        <div class="tags">
+          <span>JavaScript</span><span>SVG</span><span>Monte Carlo</span>
+        </div>
+        <div class="card-links">
+          <a href="https://julianahubacova.github.io/birthday-paradox/" target="_blank" rel="noopener">Live demo&nbsp;↗</a>
+          <a href="https://github.com/julianahubacova/birthday-paradox" target="_blank" rel="noopener">Code&nbsp;↗</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Toolbox -->
+  <section class="toolbox">
+    <div class="section-head">
+      <p class="eyebrow">Toolbox</p>
+      <h2>What I reach for</h2>
+    </div>
+    <div class="tool-rows">
+      <div class="tool-row"><span class="tool-label">Languages</span> Python · SQL · R</div>
+      <div class="tool-row"><span class="tool-label">Engineering</span> BigQuery · Databricks · Spark · Dataform · GCP</div>
+      <div class="tool-row"><span class="tool-label">ML &amp; analysis</span> scikit-learn · SHAP · regression · survey design</div>
+      <div class="tool-row"><span class="tool-label">Reporting</span> Power BI · Looker Studio</div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <p class="eyebrow eyebrow-light">Contact</p>
+    <h2>Let's talk.</h2>
+    <p class="contact-sub">Happy to chat about data, models, or where to run in Montréal in January. Email is the fastest way to reach me.</p>
+    <div class="contact-links">
+      <a href="mailto:jhubacova@yahoo.com">jhubacova@yahoo.com</a>
+      <a href="https://www.linkedin.com/in/julianahubacova" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/julianahubacova" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© 2026 Juliana Hubacova · Built by hand in Montréal.</p>
+</footer>
+
 </body>
 </html>
